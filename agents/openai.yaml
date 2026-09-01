@@ -1,0 +1,7 @@
+interface:
+  display_name: "Startup Autopilot"
+  short_description: "Automate an evidence-first path to first revenue"
+  default_prompt: "Use $startup-autopilot to turn my skills and constraints into a controlled campaign toward my first verified customer payment."
+
+policy:
+  allow_implicit_invocation: true
