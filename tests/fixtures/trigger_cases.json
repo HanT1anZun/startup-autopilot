@@ -1,0 +1,44 @@
+[
+  {
+    "id": "positive-first-customer",
+    "expected_trigger": true,
+    "prompt": "Turn my skills and constraints into a small business and help me reach my first real customer payment.",
+    "rationale": "Explicit first-revenue campaign."
+  },
+  {
+    "id": "positive-autonomous-validation",
+    "expected_trigger": true,
+    "prompt": "Research, validate, launch, and operate a microbusiness for me within strict limits until first revenue.",
+    "rationale": "Controlled autonomous go-to-market."
+  },
+  {
+    "id": "positive-resume",
+    "expected_trigger": true,
+    "prompt": "Resume my Startup Autopilot campaign from its saved state.",
+    "rationale": "Named campaign recovery."
+  },
+  {
+    "id": "negative-business-question",
+    "expected_trigger": false,
+    "prompt": "What is product-market fit?",
+    "rationale": "Generic business Q&A only."
+  },
+  {
+    "id": "negative-project-summary",
+    "expected_trigger": false,
+    "prompt": "Summarize the ideas in this startup repository.",
+    "rationale": "Read-only project summary, not a campaign."
+  },
+  {
+    "id": "negative-investment-analysis",
+    "expected_trigger": false,
+    "prompt": "Analyze whether I should invest in this public company.",
+    "rationale": "Investment analysis is excluded."
+  },
+  {
+    "id": "negative-mature-operations",
+    "expected_trigger": false,
+    "prompt": "Prepare the weekly operating report for my established 200-person company.",
+    "rationale": "Routine established-company operations are excluded."
+  }
+]
